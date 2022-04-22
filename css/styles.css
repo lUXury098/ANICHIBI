@@ -1,0 +1,444 @@
+#title {
+  background-color: #fd7e14;
+}
+
+.Favicon {
+  padding-right: 15px;
+  width: 100px;
+  height: 80px;
+}
+
+body {
+  font-family: 'montserrat';
+}
+
+h1 {
+  font-family: 'montserrat', sans-serif;
+  font-size: 3rem;
+  line-height: 1.5;
+  color: white;
+  font-weight: bold
+}
+
+/* I put container-fluid on the top of the title and
+i didn't belong the navbar, because it doesn't suits on my design. */
+.Title {
+  padding-top: 18%;
+  padding-bottom: 11%;
+  padding-left: 15%;
+  padding-right: 15%;
+}
+
+/* Navigation bar */
+/* I didn't use navbar padding, becasue it doesn't
+ suits on my design */
+.anichibi {
+  width: 569px;
+  height: 438px;
+}
+
+.navbar {
+  padding: 2% 5%;
+}
+
+.navbar-toggler {
+  padding-right:  10px;
+}
+
+.navbar-brand {
+  font-family: 'ubuntu';
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0px 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+}
+
+/* Download Buttons */
+.title-btn {
+  padding: 99px 0;
+}
+
+.download-btn {
+  margin: 5% 3% 5% 0;
+}
+
+.download-btn:hover {
+  transform: scale(1.15);
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.6);
+}
+
+@media (max-width: 1028px) {
+
+  .yaoi {
+  padding-right: 107px;
+
+  }
+
+  .Favicon {
+    padding-right: 15px;
+    width: 80px;
+    height: 70px;
+  }
+
+  .download-btn {
+    margin: 7% 5% 7% 0;
+  }
+
+  h1 {
+    font-family: 'montserrat', sans-serif;
+    font-size: 4rem;
+    line-height: 1.5;
+    color: white;
+    font-weight: bold
+  }
+
+  .anichibi {
+    padding-right: 30px;
+    padding-left: 5px;
+    width: 500px;
+    height: 418px;
+  }
+
+
+  .Title {
+    text-align: center;
+    padding-top: 18%;
+    padding-bottom: 11%;
+    padding-left: 10%;
+    padding-right: 10%;
+
+  }
+}
+
+/* Features   Features */
+#features {
+  background-color: #000000;
+  padding: 10% 10%;
+  font-size: 18px;
+  color: white;
+}
+
+.features {
+  padding: 4% 10%;
+}
+
+p2 {
+  font-size: 15px;
+  color: grey;
+}
+
+.h3-features {
+  font-size: 25px;
+}
+
+.hand {
+  text-align: center;
+  padding-top: 8%;
+}
+
+.fa-hands-holding:hover {
+  color: orange;
+}
+
+.arrow {
+  text-align: center;
+  padding-top: 8%;
+}
+
+.fa-arrow-pointer:hover {
+  color: orange;
+}
+
+.truck {
+  text-align: center;
+  padding-top: 8%;
+}
+
+.fa-truck:hover {
+  color: orange;
+}
+
+@media (max-width: 1028px) {
+  #features {
+    background-color: #000000;
+    padding: 20% 20%;
+    font-size: 30px;
+    color: white;
+  }
+
+  .h3-features {
+    font-size: 25px;
+  }
+
+  p2 {
+    font-size: 20px;
+    color: grey;
+  }
+
+  .hand {
+    text-align: center;
+    padding-top: 13%;
+  }
+
+  .arrow {
+    text-align: center;
+    padding-top: 13%;
+  }
+
+  .truck {
+    text-align: center;
+    padding-top: 13%;
+  }
+}
+
+/* Testimonial Testimonial  */
+#testimonials {
+
+  background-color: #fd7e14;
+  text-align: center;
+  font-size: 20px;
+  color: white;
+}
+
+
+.carousel-item {
+  padding: 10% 15%;
+}
+
+.images {
+  width: 10%;
+  border-radius: 50%;
+  margin: 20px;
+}
+
+@media (max-width: 1028px) {
+
+  #testimonials {
+
+    background-color: #fd7e14;
+    text-align: center;
+    font-size: 30px;
+    color: white;
+  }
+
+  .images {
+    width: 15%;
+    border-radius: 50%;
+    margin: 20px;
+  }
+
+  .carousel-item {
+    padding: 15% 15%;
+  }
+
+
+}
+
+/* Press Press */
+#press {
+  background-color: #fd7e14;
+  padding-bottom: 3%;
+  padding-left: 5%;
+  text-align: center;
+}
+
+.logo-press {
+  width: 60px;
+  margin-bottom: 40px;
+  margin-top: 20px;
+}
+
+@media (max-width: 1028px) {
+  .logo-press {
+    margin: 10px 10px;
+    width: 150px;
+    height: 100px;
+    padding-bottom: 5%;
+  }
+}
+
+/* Pricing Pricing */
+#pricing {
+  font-family: 'ubuntu', sans-serif;
+  font-size: 2rem;
+  text-align: center;
+  background-color: black;
+  color: white;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+.container-fluid4 {
+  padding-top: 2rem;
+  padding-right: 10%;
+  padding-left: 10%;
+}
+
+.card {
+  background-color: black;
+  font-size: 1rem;
+}
+
+.deku {
+  width: 289px;
+  height: 270px;
+}
+
+.animegirl2 {
+  width: 289px;
+  height: 270px;
+}
+
+.nezuko {
+  width: 289px;
+  height: 270px;
+}
+
+.btn-secondary:hover {
+  transform: scale(1.15);
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.6);
+}
+
+.promo {
+  font-weight: bold;
+  font-size: 3rem;
+}
+
+.card-header {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+@media (max-width: 1028px) {
+  #pricing {
+    padding: 100px;
+    text-align: center;
+  }
+
+  .container-fluid4 {
+  padding: 3% 2%;
+  }
+
+
+
+
+  .promo {
+    font-weight: bold;
+    font-size: 3rem;
+  }
+}
+
+  /* CTA CTA CTA CTA */
+  #cta {
+    background-color: #fd7e14;
+    text-align: center;
+    color: white;
+
+  }
+
+
+
+  .h3-cta {
+    font-family: 'montserrat', sans-serif;
+    font-size: 3rem;
+    color: white;
+  }
+
+  .cta-btn {
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 15%;
+    padding-bottom: 10%;
+
+  }
+
+  .hr-1 {
+    border-top: 2px solid white;
+
+  }
+
+  @media (max-width: 1028px) {
+    .h3-cta {
+      font-family: 'montserrat', sans-serif;
+      font-size: 4rem;
+      color: white;
+    }
+
+    .cta-btn {
+      padding-left: 15%;
+      padding-right: 15%;
+      padding-top: 15%;
+      padding-bottom: 15%;
+    }
+
+  }
+
+  #footer {
+    background-color: black;
+    color: white;
+    font-size: 20px;
+  }
+
+
+.Favicon-2 {
+  width: 60px;
+  height: 50px;
+}
+
+.container-fluid6 {
+padding-top: 10%;
+padding-bottom: 5%;
+padding-left: 5%;
+padding-right: 5%;
+}
+
+.foot {
+  margin-left: 15px;
+}
+
+.foot:hover {
+    color:orange;
+
+}
+
+  .footer-btn {
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 0%;
+    padding-bottom: 5%;
+  }
+
+  .liang {
+    text-align: left;
+    font-size: 5px;
+    padding:inherit;
+
+  }
+
+  @media (max-width: 1028px) {
+
+    #footer {
+      background-color: black;
+      padding-top: 10px;
+      color: white;
+      font-size: 25px;
+    }
+
+
+    .Favicon-2 {
+      width: 60px;
+      height: 50px;
+    }
+
+    .container-fluid6 {
+      padding-top: 10%;
+      text-align: center;
+    }
+
+  }
